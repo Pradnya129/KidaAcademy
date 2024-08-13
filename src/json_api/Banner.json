@@ -1,6 +1,6 @@
 [
     {   "id":"001",
-        "img_src":" img/banner_01.jpg",
+        "img_src":" /img/banner_01.jpg",
         "heading1":"Welcome to KidsAcademy",
         "heading2":"Best For Education",
         "pText":"Monotonely principle centered ahitectures through and standards magnetic metrics where cross functional products",
@@ -12,7 +12,7 @@
         
     },
     {    "id":"002",
-        "img_src":" img/banner_02.jpg",
+        "img_src":" /img/banner_02.jpg",
         "heading1":"Welcome to KidsAcademy",
         "heading2":"Best For Education",
         "pText":"Monotonely principle centered ahitectures through and standards magnetic metrics where cross functional products",
@@ -24,7 +24,7 @@
         
     },
     {   "id":"003",
-        "img_src":" img/banner_03.jpg",
+        "img_src":" /img/banner_03.jpg",
         "heading1":"Welcome to KidsAcademy",
         "heading2":"Best For Education",
         "pText":"Monotonely principle centered ahitectures through and standards magnetic metrics where cross functional products",
