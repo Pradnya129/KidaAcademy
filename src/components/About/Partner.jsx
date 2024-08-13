@@ -35,34 +35,34 @@ function Partner() {
             onSwiper={(swiper) => console.log(swiper)}
             >            
                 <SwiperSlide className='myslide '>
-                <img src="img/partner_01.jpg" alt="" />
+                <img src="/img/partner_01.jpg" alt="" />
               </SwiperSlide>
               <SwiperSlide className='myslide '>
-                <img src="img/partner_02.jpg" alt="" />
+                <img src="/img/partner_02.jpg" alt="" />
               </SwiperSlide>
               <SwiperSlide className='myslide ' >
-                <img src="img/partner_03.jpg" alt="" />
+                <img src="/img/partner_03.jpg" alt="" />
               </SwiperSlide>
               <SwiperSlide className='myslide ' >
-                <img src="img/partner_04.jpg" alt="" />
+                <img src="/img/partner_04.jpg" alt="" />
               </SwiperSlide>
               <SwiperSlide className='myslide '>
-                <img src="img/partner_05.jpg" alt="" />
+                <img src="/img/partner_05.jpg" alt="" />
               </SwiperSlide>
               <SwiperSlide className='myslide '>
-                <img src="img/partner_01.jpg" alt="" />
+                <img src="/img/partner_01.jpg" alt="" />
               </SwiperSlide>
               <SwiperSlide className='myslide '>
-                <img src="img/partner_02.jpg" alt="" />
+                <img src="/img/partner_02.jpg" alt="" />
               </SwiperSlide>
               <SwiperSlide className='myslide ' >
-                <img src="img/partner_03.jpg" alt="" />
+                <img src="/img/partner_03.jpg" alt="" />
               </SwiperSlide>
               <SwiperSlide className='myslide ' >
-                <img src="img/partner_04.jpg" alt="" />
+                <img src="/img/partner_04.jpg" alt="" />
               </SwiperSlide>
               <SwiperSlide className='myslide '>
-                <img src="img/partner_05.jpg" alt="" />
+                <img src="/img/partner_05.jpg" alt="" />
               </SwiperSlide>
             
              

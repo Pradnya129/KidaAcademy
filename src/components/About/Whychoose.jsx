@@ -32,7 +32,7 @@ function Whychoose() {
                 </Col>
                 <Col lg={6} xl={4}>
                  <div className="feature-img">
-                    <img src="img/feature.jpg" alt="feature-img" className='fluid-img w-100' />
+                    <img src="/img/feature.jpg" alt="feature-img" className='fluid-img w-100' />
                  </div>
                 </Col>
                 <Col lg={12}xl={4} className='text-lg-center '>

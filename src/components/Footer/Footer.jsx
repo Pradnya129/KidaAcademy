@@ -6,19 +6,19 @@ import data from "../../json_api/Footer.json"
 const latestNews=[
   { 
     id : "1",
-    img:"img/footer_post_01.jpg",
+    img:"/img/footer_post_01.jpg",
     text:"Corem psum dolor the amectetuer adipiscing...",
     date:"04 February 2021"
   },
   {  
     id :"2",
-    img:"img/footer_post_02.jpg",
+    img:"/img/footer_post_02.jpg",
     text:"Corem psum dolor the amectetuer adipiscing...",
     date:"28 January 2021"
   },
   { 
     id:"3",
-    img:"img/footer_post_03.jpg",
+    img:"/img/footer_post_03.jpg",
     text:"Corem psum dolor the amectetuer adipiscing...",
     date:"03 January 2021"
   }
@@ -110,19 +110,19 @@ function Footer() {
         <h2 className='text-orange fw-bold mb-lg-5 ff-bubblegum  mt-2 mt-xl-0 mb-3'>Recent Photos</h2>
 
         <div className='d-flex gap-2 mb-2 mx-sm-auto'>
-          <img src="img/gallery_01.jpg" alt="gallery_01" />
-          <img src="img/gallery_02.jpg" alt="gallery_02" />
-          <img src="img/gallery_03.jpg" alt="gallery_03" />
+          <img src="/img/gallery_01.jpg" alt="gallery_01" />
+          <img src="/img/gallery_02.jpg" alt="gallery_02" />
+          <img src="/img/gallery_03.jpg" alt="gallery_03" />
         </div>
         <div className='d-flex gap-2 mb-2'>
-          <img src="img/gallery_04.jpg" alt="gallery_04" />
-          <img src="img/gallery_05.jpg" alt="gallery_05" />
-          <img src="img/gallery_06.jpg" alt="gallery_06" />
+          <img src="/img/gallery_04.jpg" alt="gallery_04" />
+          <img src="/img/gallery_05.jpg" alt="gallery_05" />
+          <img src="/img/gallery_06.jpg" alt="gallery_06" />
         </div>
         <div className='d-flex gap-2'>
-          <img src="img/gallery_07.jpg" alt="gallery_07" />
-          <img src="img/gallery_08.jpg" alt="gallery_08" />
-          <img src="img/gallery_09.jpg" alt="gallery_09" />
+          <img src="/img/gallery_07.jpg" alt="gallery_07" />
+          <img src="/img/gallery_08.jpg" alt="gallery_08" />
+          <img src="/img/gallery_09.jpg" alt="gallery_09" />
         </div>
         </Col>
       </Row>

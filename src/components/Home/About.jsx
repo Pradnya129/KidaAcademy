@@ -9,7 +9,7 @@ function About({myclass}) {
         
         <Row className='text-center'>
         <Col lg={6} md={12} sm={12} className='mb-3 px-0'>
-        <img src={"img/about.png"} alt="about" className=' img-fluid ' />
+        <img src={"/img/about.png"} alt="about" className=' img-fluid ' />
         </Col>
         <Col className='text-xl-start text-lg-start text-center  ' lg={6} md={12} sm={12}>
          <h3 className={`${myclass.headingColor} ff-bubblegum fw-bold fs-1 mb-3 `}>About Our KidsAcademy</h3>
