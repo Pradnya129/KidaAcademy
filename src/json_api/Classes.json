@@ -1,6 +1,6 @@
 [
     {   "id":"001",
-        "src" :"img/class_01.jpg ",
+        "src" :"/img/class_01.jpg ",
         "classSize":"30-40",
         "yearsOld":"5-6",
         "tutionFee":"$15000",
@@ -12,7 +12,7 @@
 
     },
     {    "id":"002",
-        "src" :"img/class_02.jpg ",
+        "src" :"/img/class_02.jpg ",
         "classSize":"30-40",
         "yearsOld":"5-6",
         "tutionFee":"$15000",
@@ -25,7 +25,7 @@
     },
     
     {    "id":"003",
-        "src" :"img/class_03.jpg ",
+        "src" :"/img/class_03.jpg ",
         "classSize":"30-40",
         "yearsOld":"5-6",
         "tutionFee":"$15000",
@@ -37,7 +37,7 @@
 
     },
     {    "id":"004",
-        "src" :"img/class_04.jpg ",
+        "src" :"/img/class_04.jpg ",
         "classSize":"30-40",
         "yearsOld":"5-6",
         "tutionFee":"$15000",
@@ -49,7 +49,7 @@
 
     },
     {    "id":"005",
-        "src" :"img/class_05.jpg ",
+        "src" :"/img/class_05.jpg ",
         "classSize":"30-40",
         "yearsOld":"5-6",
         "tutionFee":"$15000",
@@ -62,7 +62,7 @@
     },
     
     {    "id":"006",
-        "src" :"img/class_06.jpg ",
+        "src" :"/img/class_06.jpg ",
         "classSize":"30-40",
         "yearsOld":"5-6",
         "tutionFee":"$15000",
@@ -75,7 +75,7 @@
     },
       
     {    "id":"007",
-        "src" :"img/class_03.jpg ",
+        "src" :"/img/class_03.jpg ",
         "classSize":"30-40",
         "yearsOld":"5-6",
         "tutionFee":"$15000",
@@ -87,7 +87,7 @@
 
     },
     {    "id":"008",
-        "src" :"img/class_04.jpg ",
+        "src" :"/img/class_04.jpg ",
         "classSize":"30-40",
         "yearsOld":"5-6",
         "tutionFee":"$15000",
@@ -99,7 +99,7 @@
 
     },
     {    "id":"009",
-        "src" :"img/class_05.jpg ",
+        "src" :"/img/class_05.jpg ",
         "classSize":"30-40",
         "yearsOld":"5-6",
         "tutionFee":"$15000",
@@ -112,7 +112,7 @@
     },
     
     {    "id":"010",
-        "src" :"img/class_06.jpg ",
+        "src" :"/img/class_06.jpg ",
         "classSize":"30-40",
         "yearsOld":"5-6",
         "tutionFee":"$15000",
@@ -124,7 +124,7 @@
 
     },
     {   "id":"011",
-    "src" :"img/class_01.jpg ",
+    "src" :"/img/class_01.jpg ",
     "classSize":"30-40",
     "yearsOld":"5-6",
     "tutionFee":"$15000",
@@ -136,7 +136,7 @@
 
 },
 {    "id":"012",
-    "src" :"img/class_02.jpg ",
+    "src" :"/img/class_02.jpg ",
     "classSize":"30-40",
     "yearsOld":"5-6",
     "tutionFee":"$15000",
