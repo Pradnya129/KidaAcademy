@@ -1,38 +1,113 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+.fw-500{
+    font-weight: 500;
+}
+.fw-600{
+    font-weight: 600;
+}
+.fw-700{
+    font-weight: 700;
+}
+.ff-bubblegum{
+    font-family: "Bubblegum Sans", sans-serif;    
+}
+.ff-roboto{
+    font-family: "Roboto", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.text-warning{
+    color: #ffc00f !important;
+    
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.text-tomato{
+    color: #e84b3a !important;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.text-orange{
+    color: #fc7f0c !important;
 }
-
-.App-link {
-  color: #61dafb;
+.text-purple{
+    color: #92278f !important;
 }
+.bg-purple{
+    background-color: rgb(146, 39, 143) !important;
+}
+.bg-tomato{
+    background: #e84b3a !important;
+}
+.bg-orange{
+    background-color: #fc7f0c!important;
+}
+.bg-warning{
+    background-color: #ffc00f !important;
+}
+.bg-blue{
+    background-color: rgb(20, 183, 241) !important;
+}
+.bg-pink{
+    background-color: #ee257c !important;
+}
+.text-pink{
+    color: #ee257c !important;
+}
+.text-green{
+    color: #8dc63f !important;
+}
+.text-brown{
+    color: #a40202 !important;
+}
+.text-blue{
+    color: rgb(20, 183, 241) !important;
+}
+.text-grey{
+    color:#707070 !important;
+}
+.fs-40{
+    font-size: 40px;
+}
+.fs-48{
+    font-size: 48px;
+}
+.fs-50{
+    font-size: 50px !important;
+}
+.fs-15{
+    font-size: 15px;
+}
+.border-warning{
+    border-color: #ffc00f !important;
+    
+}
+.border-tomato{
+    border-color: #e84b3a !important ;
+}
+.border-orange{
+    border-color: #fc7f0c !important;
+}
+.border-purple{
+border-color: purple;
+}
+  
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.section-notch:after {
+    content: "";
+    position: absolute;
+    background-image: url(../public/img/section_notch_bottom.png);
+    background-repeat: repeat-x;
+    bottom: 0px;
+    width: 100%;
+    height: 7px;
+    z-index: 2;
+    left: 0px;
+}
+.section-notch:before {
+    content: "";
+    position: absolute;
+    background: url(../public/img/section_notch_top.png) !important;
+    background-repeat: repeat-x !important;
+    display: block;
+    top: 0px !important;
+    width: 100% !important;
+    height: 7px;
+    z-index: 2 !important;
+    left: 0px;
 }

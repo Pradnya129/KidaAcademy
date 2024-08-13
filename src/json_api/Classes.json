@@ -1,0 +1,152 @@
+[
+    {   "id":"001",
+        "src" :"img/class_01.jpg ",
+        "classSize":"30-40",
+        "yearsOld":"5-6",
+        "tutionFee":"$15000",
+        "className":"Imagination Classes",
+        "textColor":"text-warning",
+        "bgColor":"bg-warning",
+        "classTime":" 08:00 am - 10:00 am",
+        "text":"Draticaly novate fuly rarched an plications awesome theme education"
+
+    },
+    {    "id":"002",
+        "src" :"img/class_02.jpg ",
+        "classSize":"30-40",
+        "yearsOld":"5-6",
+        "tutionFee":"$15000",
+        "className":"Drawing Classes",
+        "textColor":"text-tomato",
+        "bgColor":"bg-tomato",
+        "classTime":" 08:00 am - 10:00 am",
+        "text":"Draticaly novate fuly rarched an plications awesome theme education"
+
+    },
+    
+    {    "id":"003",
+        "src" :"img/class_03.jpg ",
+        "classSize":"30-40",
+        "yearsOld":"5-6",
+        "tutionFee":"$15000",
+        "className":"Learning Classes",
+        "textColor":"text-orange",
+        "bgColor":"bg-orange",
+        "classTime":" 08:00 am - 10:00 am",
+        "text":"Draticaly novate fuly rarched an plications awesome theme education"
+
+    },
+    {    "id":"004",
+        "src" :"img/class_04.jpg ",
+        "classSize":"30-40",
+        "yearsOld":"5-6",
+        "tutionFee":"$15000",
+        "className":"Imagination Classes",
+        "textColor":"text-warning",
+        "bgColor":"bg-warning",
+        "classTime":" 08:00 am - 10:00 am",
+        "text":"Draticaly novate fuly rarched an plications awesome theme education"
+
+    },
+    {    "id":"005",
+        "src" :"img/class_05.jpg ",
+        "classSize":"30-40",
+        "yearsOld":"5-6",
+        "tutionFee":"$15000",
+        "className":"Drawing Classes",
+        "textColor":"text-tomato",
+        "bgColor":"bg-tomato",
+        "classTime":" 08:00 am - 10:00 am",
+        "text":"Draticaly novate fuly rarched an plications awesome theme education"
+
+    },
+    
+    {    "id":"006",
+        "src" :"img/class_06.jpg ",
+        "classSize":"30-40",
+        "yearsOld":"5-6",
+        "tutionFee":"$15000",
+        "className":"Learning Classes",
+        "textColor":"text-orange",
+        "bgColor":"bg-orange",
+        "classTime":" 08:00 am - 10:00 am",
+        "text":"Draticaly novate fuly rarched an plications awesome theme education"
+
+    },
+      
+    {    "id":"007",
+        "src" :"img/class_03.jpg ",
+        "classSize":"30-40",
+        "yearsOld":"5-6",
+        "tutionFee":"$15000",
+        "className":"Learning Classes",
+        "textColor":"text-pink",
+        "bgColor":"bg-pink",
+        "classTime":" 08:00 am - 10:00 am",
+        "text":"Draticaly novate fuly rarched an plications awesome theme education"
+
+    },
+    {    "id":"008",
+        "src" :"img/class_04.jpg ",
+        "classSize":"30-40",
+        "yearsOld":"5-6",
+        "tutionFee":"$15000",
+        "className":"Imagination Classes",
+        "textColor":"text-purple",
+        "bgColor":"bg-purple",
+        "classTime":" 08:00 am - 10:00 am",
+        "text":"Draticaly novate fuly rarched an plications awesome theme education"
+
+    },
+    {    "id":"009",
+        "src" :"img/class_05.jpg ",
+        "classSize":"30-40",
+        "yearsOld":"5-6",
+        "tutionFee":"$15000",
+        "className":"Drawing Classes",
+        "textColor":"text-tomato",
+        "bgColor":"bg-tomato",
+        "classTime":" 08:00 am - 10:00 am",
+        "text":"Draticaly novate fuly rarched an plications awesome theme education"
+
+    },
+    
+    {    "id":"010",
+        "src" :"img/class_06.jpg ",
+        "classSize":"30-40",
+        "yearsOld":"5-6",
+        "tutionFee":"$15000",
+        "className":"Learning Classes",
+        "textColor":"text-orange",
+        "bgColor":"bg-orange",
+        "classTime":" 08:00 am - 10:00 am",
+        "text":"Draticaly novate fuly rarched an plications awesome theme education"
+
+    },
+    {   "id":"011",
+    "src" :"img/class_01.jpg ",
+    "classSize":"30-40",
+    "yearsOld":"5-6",
+    "tutionFee":"$15000",
+    "className":"Imagination Classes",
+    "textColor":"text-warning",
+    "bgColor":"bg-warning",
+    "classTime":" 08:00 am - 10:00 am",
+    "text":"Draticaly novate fuly rarched an plications awesome theme education"
+
+},
+{    "id":"012",
+    "src" :"img/class_02.jpg ",
+    "classSize":"30-40",
+    "yearsOld":"5-6",
+    "tutionFee":"$15000",
+    "className":"Drawing Classes",
+    "textColor":"text-tomato",
+    "bgColor":"bg-tomato",
+    "classTime":" 08:00 am - 10:00 am",
+    "text":"Draticaly novate fuly rarched an plications awesome theme education"
+
+}
+    
+
+]

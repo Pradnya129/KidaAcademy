@@ -1,0 +1,52 @@
+[
+    {   "id":"001",
+        "img":"img/teacher_01.jpg",
+        "teacherName":"Broklyn Doel",
+        "teacherSubject":"Sains Teacher",
+        "description":"Distinctively initiate and sustainable synergy vaan tactical opportunities. awesome theme ollaboratively.",
+        "bgColor":"bg-purple"
+    },
+    {    "id":"002",
+        "img":"img/teacher_02.jpg",
+        "teacherName":"Alex Jhonson",
+        "teacherSubject":"Art Teacher",
+        "description":"Distinctively initiate and sustainable synergy vaan tactical opportunities. awesome theme ollaboratively.",
+        "bgColor":"bg-tomato"
+    },
+    {    "id":"003",
+        "img":"img/teacher_03.jpg",
+        "teacherName":"Robot Jhonson",
+        "teacherSubject":"Math Teacher",
+        "description":"Distinctively initiate and sustainable synergy vaan tactical opportunities. awesome theme ollaboratively.",
+          "bgColor":"bg-orange"
+    },
+    {     "id":"004",
+        "img":"img/teacher_04.jpg",
+        "teacherName":"Janaton Doe",
+        "teacherSubject":"English Teacher",
+        "description":"Distinctively initiate and sustainable synergy vaan tactical opportunities. awesome theme ollaboratively.",
+          "bgColor":"bg-blue"
+    },
+    {    "id":"005",
+    "img":"img/teacher_05.jpg",
+    "teacherName":"Alex Jhonson",
+    "teacherSubject":"Art Teacher",
+    "description":"Distinctively initiate and sustainable synergy vaan tactical opportunities. awesome theme ollaboratively.",
+    "bgColor":"bg-tomato"
+},
+{    "id":"006",
+    "img":"img/teacher_06.jpg",
+    "teacherName":"Robot Jhonson",
+    "teacherSubject":"Math Teacher",
+    "description":"Distinctively initiate and sustainable synergy vaan tactical opportunities. awesome theme ollaboratively.",
+      "bgColor":"bg-orange"
+},
+{     "id":"007",
+    "img":"img/teacher_07.jpg",
+    "teacherName":"Janaton Doe",
+    "teacherSubject":"English Teacher",
+    "description":"Distinctively initiate and sustainable synergy vaan tactical opportunities. awesome theme ollaboratively.",
+      "bgColor":"bg-blue"
+}
+    
+]

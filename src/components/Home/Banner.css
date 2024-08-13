@@ -1,0 +1,243 @@
+/* Banner Styles */
+.banner .banner-img {
+  height: 600px !important;
+}
+
+/* Carousel Indicators */
+.carousel-indicators {
+  bottom: 20px; /* Adjust the position if needed */
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 12px !important;
+  height: 12px !important;
+  border-radius: 50%;
+  background-color: #ffffff98; /* Change to your desired color */
+}
+
+.carousel-indicators .active {
+  background-color: white; /* Change to your desired color for the active indicator */
+}
+
+/* Positioning Utilities */
+.start-0 {
+  left: 0;
+}
+
+.top-25 {
+  top: 20%;
+}
+
+.top-10 {
+  top: 10%;
+}
+
+/* Banner Content */
+.banner-content .heading1 {
+  color: #fff;
+  font-size: 36px;
+  font-style: normal;
+}
+
+.banner-content .heading2 {
+  display: inline-block;
+  color: #fff;
+  font-size: 66px;
+  line-height: 1;
+  margin-bottom: 10px;
+}
+
+.banner-content p {
+  color: #fff;
+  max-width: 570px;
+  font-size: 16px;
+}
+
+/* Carousel Controls */
+.carousel-control-prev,
+.carousel-control-next {
+  visibility: visible;
+}
+
+/* Button Styles */
+.button-default {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  font-style: italic;
+  background-color: #92278f;
+  border-radius: 2px !important;
+  padding: 11px 30px !important;
+  transition: 0.25s ease-out;
+}
+
+/* Logo Image */
+.logo-img {
+  width: 200px;
+}
+
+/* Media Queries */
+
+/* Medium Devices (Tablets, 768px and up) */
+@media (max-width: 992px) {
+  .banner .section-notch .banner-img {
+    height: 600px !important;
+    width: 100%;
+  }
+}
+
+/* Small Devices (Landscape Phones, 576px and up) */
+@media (max-width: 576px) {
+  .fs-22 {
+    font-size: 25px !important;
+  }
+  
+  .fs-32 {
+    font-size: 35px !important;
+  }
+
+  .banner,
+  .section-notch .banner-img {
+    height: 400px !important;
+    width: 100%;
+    background-size: contain;
+  }
+
+  .banner p {
+    font-size: 15px !important;
+    line-height: 16px;
+    word-spacing: 1px;
+  }
+
+  .banner-content {
+    top: 20%;
+  }
+
+  .button-default {
+    font-size: 15px !important;
+    padding: 8px 15px !important;
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    visibility: hidden;
+  }
+
+  .carousel-caption {
+    text-align: center !important;
+    right: 5% !important;
+    bottom: 1.25rem;
+    left: 8% !important;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+  }
+}
+
+/* Extra Small Devices (Portrait Phones, less than 576px) */
+@media (max-width: 320px) {
+  .banner,
+  .section-notch .banner-img {
+    height: 400px !important;
+    width: 100%;
+    object-fit: cover;
+    background-size: cover;
+  }
+
+  .banner p {
+    line-height: 17px !important;
+    font-size: 15px !important;
+    text-align: center;
+  }
+
+  .fs-32 {
+    font-size: 35px !important;
+  }
+
+  .fs-22 {
+    font-size: 23px !important;
+  }
+
+  .button-default {
+    font-size: 14px !important;
+    padding: 8px 15px !important;
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    visibility: hidden;
+  }
+
+  .carousel-caption {
+    text-align: center !important;
+    right: 5% !important;
+    bottom: 1.25rem;
+    left: 8% !important;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+  }
+
+  .testimonial .swiper-item {
+    max-height: 220px;
+  }
+
+  .logo-img {
+    width: 150px !important;
+  }
+}
+
+/* Minimum Screen Width */
+@media (max-width: 200px) {
+  p {
+    font-size: 15px !important;
+  }
+
+  .logo-img {
+    width: 150px !important;
+  }
+
+  .banner,
+  .section-notch .banner-img {
+    height: 400px !important;
+    width: 100%;
+    object-fit: cover;
+    background-size: cover;
+  }
+
+  .banner p {
+    line-height: 16px !important;
+    font-size: 12px !important;
+    text-align: center;
+  }
+
+  .fs-32 {
+    font-size: 32px !important;
+  }
+
+  .fs-22 {
+    font-size: 23px !important;
+  }
+
+  .button-default {
+    font-size: 14px !important;
+    padding: 8px 15px !important;
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    visibility: hidden;
+  }
+
+  .carousel-caption {
+    text-align: center !important;
+    right: 5% !important;
+    bottom: 1.25rem;
+    left: 8% !important;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+  }
+
+  .testimonial .swiper-item {
+    max-height: 250px !important;
+  }
+}

@@ -1,0 +1,26 @@
+.partner .swiper-container {
+  max-width: 100%;
+  height: 100%;
+}
+.partner .swiper {
+  width: 100% !important;
+  margin: 0px auto !important;
+}
+.padding-3{
+  padding: 0px 30px;
+}
+.padding-3{
+  margin: 0px 5px !important;
+}
+
+  .partner .myslide{
+    width: 100%;
+    margin: 20px 0px;
+  }
+  .partner .swiper-slide{width: 220px !important;}
+  .partner .swiper-wrapper{
+    width: 100%;
+  }
+  .partner .swiper-scrollbar {background: white !important;}
+
+  

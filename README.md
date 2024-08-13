@@ -68,3 +68,20 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+<!-- 
+ {
+    Bannerinfo.map((item,index)=>{
+        return(
+          <Carousel key={index}  >
+    <Carousel.Item interval={3000}>
+      <img className="d-block w-100" src={item.img_src} alt="First slide"/>
+      <Carousel.Caption >
+        <h3>{item.heading1}</h3>
+        <p>{item.heading2}</p>
+        {/* <Link to='/read_me'className='btn btn-primary'>Read me</Link> */}
+      /* </Carousel.Caption>
+    </Carousel.Item>
+    </Carousel> */
+        /* )
+      }) -->

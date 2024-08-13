@@ -1,0 +1,11 @@
+.custom-placeholder::placeholder {
+    color: white !important; /* Change this to the desired color */
+    opacity: 1 !important; /* Ensures the color is fully opaque */
+  }
+
+.custom-placeholder::-webkit-input-placeholder { /* WebKit browsers */
+    color: white; /* Change this to the desired color */
+  }
+  .custom-placeholder:focus{
+       box-shadow:none !important;
+  }

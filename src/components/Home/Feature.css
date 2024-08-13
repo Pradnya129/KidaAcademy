@@ -1,0 +1,9 @@
+.icon-rotate{
+    display:inline-block !important;
+        transition: 0.5s linear;
+    }
+.icon-box:hover .icon-rotate{
+    transition: 0.5s linear;
+    transform: rotate(360deg);
+}
+
