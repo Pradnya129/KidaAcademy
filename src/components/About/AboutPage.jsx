@@ -1,6 +1,5 @@
 import React from 'react'
 import Breadcrums from '../Breadcrums';
-import Feature from '../Home/Feature';
 import About from '../Home/About';
 import Teacher from '../Home/Teacher';
 import Testimonial from '../Home/Testimonial';
@@ -8,7 +7,6 @@ import Whychoose from './Whychoose';
 import Partner from './Partner';
 import Newsletter from '../Home/Newsletter';
 import Achievment from './Achievment';
-import TeacherInfo from '../../json_api/Teacher.json'
 
 
 function AboutPage() {
