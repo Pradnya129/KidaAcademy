@@ -2,7 +2,7 @@
   "name": "kidsschool",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://pradnyamandekar.github.io/KidsAcademy",
+   "homepage": "https://pradnyamandekar.netlify.app",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.6.0",
     "@react-google-maps/api": "^2.19.3",
