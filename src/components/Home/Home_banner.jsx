@@ -23,7 +23,7 @@ function Home_banner() {
                
          <Carousel.Item interval={2000} key={item.id}  >
                 <img className="d-block w-100 banner-img    " src={item.img_src} alt="First slide" style={{filter:"brightness(70%)"}}/>
-              <Carousel.Caption  className=" top-25 left-0 ms-md-5 ms-3 me-1 text-md-start banner-content  ">
+              <Carousel.Caption  className=" top-25 left-0 ms-md-5 ms-0 me-0 text-md-start banner-content  ">
                 <h2 className='heading1 ff-bubblegum fw-bold fs-22' data-aos={item.fadeLeft}  >{item.heading1}</h2>
                 <h1 className='heading2 ff-bubblegum fw-bold fs-32' data-aos={item.fadeUp} >{item.heading2}</h1>
                 <p data-aos={item.fadeDown}  className='fs-6 ff-roboto'>{item.pText}</p>
