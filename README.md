@@ -3,23 +3,23 @@
 
 <h2>Live Link : https://kids-school-academy.netlify.app/ </h2>
 
-Features
-Responsive Design: Optimized for all device sizes.
-Interactive Elements: Includes animations, carousels, and dynamic content.
-Google Maps Integration: Display locations using Google Maps.
-Customizable Components: Use of Bootstrap and custom styles for unique layouts.
+Features <br><br>
+Responsive Design: Optimized for all device sizes.<br>
+Interactive Elements: Includes animations, carousels, and dynamic content.<br>
+Google Maps Integration: Display locations using Google Maps.<br>
+Customizable Components: Use of Bootstrap and custom styles for unique layouts.<br><br>
 
-Technologies Used
+Technologies Used<br><br>
 
-React: A JavaScript library for building user interfaces.
-React Bootstrap: Bootstrap components for React.
-React Router DOM: For navigation and routing within the application.
-Swiper: For creating touch sliders and carousels.
-Animate.css: For adding animations to elements.
-AOS: Animate On Scroll library for scroll animations.
-Font Awesome: Icons for various UI elements.
-React CountUp: For animated counter components.
-React Intersection Observer: For lazy loading and scroll effects. 
+React: A JavaScript library for building user interfaces.<br>
+React Bootstrap: Bootstrap components for React.<br>
+React Router DOM: For navigation and routing within the application.<br>
+Swiper: For creating touch sliders and carousels.<br>
+Animate.css: For adding animations to elements.<br>
+AOS: Animate On Scroll library for scroll animations.<br>
+Font Awesome: Icons for various UI elements.<br>
+React CountUp: For animated counter components.<br>
+React Intersection Observer: For lazy loading and scroll effects. <br>
 
 
     
