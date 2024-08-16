@@ -110,7 +110,7 @@ function Testimonial() {
                     {item.parentName}
                     <span className='fs-6 text-grey'> {item.parentDesignation}</span>
                   </h4>
-                  <img src={item.icon} alt="testimonial_icon" className='testimonial_icon' />
+                  <img src={item.icon} alt="testimonial_icon" loading="lazy"  className='testimonial_icon' />
                 </div>
               </div>
               <div className="testimonial-img" style={{ border: item.borderstyle }}>

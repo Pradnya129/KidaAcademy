@@ -20,7 +20,7 @@ function Popularclasses({classNo}) {
                     return(
                         <Col lg={4} md={6}  className='text-center  my-2' key={item.id}>
                         <div className='class-item' >
-                        <img src={item.src} alt="class_01" className='img-fluid w-100  '/>  
+                        <img src={item.src} alt="class_01" className='img-fluid w-100' loading="lazy" />  
                         <ListGroup horizontal className='border border-1 rounded-0 border-end-0 border-start-0 ff-roboto'>
                         <ListGroup.Item className='w-100 rounded-0 bg-purple text-white ff-roboto fw-bold fs-15 lh-20'> 
                         <span>Class size</span> <span className='d-block'>{item.classSize}</span> 
