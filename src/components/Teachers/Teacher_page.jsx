@@ -8,7 +8,7 @@ function Teacher_page() {
   return (
     <>
        <Breadcrums data={{ headingName: "Meet Our Teachers", linkName: "Teachers" }} />
-       <Teacher teacherClass={ {totalTeacher : TeacherInfo.length ,  bgClass:'teacher1' ,textColor:'text-grey', headingColor:'text-purple'}} />
+       <Teacher teacherClass={ {totalTeacher : TeacherInfo.length ,  bgClass:'teacher2' ,textColor:'text-grey', headingColor:'text-purple'}} />
        <Newsletter/>
        
     </>

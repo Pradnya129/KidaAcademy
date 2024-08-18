@@ -16,7 +16,7 @@ function Home() {
      <Feature/>
      <About  myclass={{bgClass: "about", headingColor:"text-white", textColor:"text-white"}}/>
      <Popularclasses classNo={6}/>
-     <Teacher teacherClass={ {totalTeacher : 4 ,  bgClass:'teacher1' ,textColor:'text-grey', headingColor:'text-purple'}}/>
+     <Teacher teacherClass={ {totalTeacher : 4 ,  bgClass:'teacher1' ,textColor:'text-white', headingColor:'text-purple'}}/>
      <Testimonial/>
      <Newsletter/>
     </>

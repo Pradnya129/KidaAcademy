@@ -1,20 +1,21 @@
-.teacher{
+.teacher1{
     background:linear-gradient(rgba(71, 171, 35, .8) , rgba(71, 171, 35, .8)), url('../../../public/img/teacher-bg.jpg');
     background-size: cover;
     background-position: center;    
     position:relative;
+    /* color: white; */
 }
-.teacher1{
+.teacher2{
     background-size: cover;
     background-position: center;    
     position:relative;
 }
 .teacher .teacher-content .social-media i{
-    transition: 0.2s linear;
+    transition:  0.3s linear;
 }
 .teacher .teacher-content .social-media i:hover{
-    transform: translateY(-4px);
-    transition: 0.2s linear;
+    transform: translateY(-8px);
+    transition: transform 0.2s linear;
 }
 .teacher .teacher-content .view{
     transition: 0.2s linear;
@@ -25,7 +26,7 @@
 }
 .teacher .teacher-content .view:hover{
     transform: translateY(-4px) !important;
-    transition: 0.2s linear;
+    transition: transform 0.2s linear;
 
 }
 
