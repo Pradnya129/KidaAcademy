@@ -46,7 +46,7 @@ function ContactUs() {
                         <Form.Group className="mb-4" controlId="formMessage">
                             <Form.Control as="textarea" rows={5} placeholder="Your Message" />
                         </Form.Group>
-                        <Link to={"/buy_now"}className='btn bg-purple button-default text-white fw-bold ms-4'>Send messages</Link>
+                        <Link to="#" className='btn bg-purple button-default text-white fw-bold ms-4' onClick={(e)=>{e.preventDefault()}}>Send messages</Link>
                     </Form>
                 </Col>
             </Row>

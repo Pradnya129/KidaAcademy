@@ -23,4 +23,6 @@
   }
   .partner .swiper-scrollbar {background: white !important;}
 
-  
+  @media (max-width:320px){
+    .partner .swiper-slide{width: 227px !important;}
+  }

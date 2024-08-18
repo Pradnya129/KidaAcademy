@@ -4,6 +4,21 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.css';
 import { Navigation, Autoplay } from 'swiper/modules';
 import './Partner.css'
+
+let slideImg = [
+  "/img/partner_01.jpg",
+  "/img/partner_02.jpg",
+  "/img/partner_03.jpg",
+  "/img/partner_04.jpg",
+  "/img/partner_05.jpg",
+  "/img/partner_01.jpg",
+  "/img/partner_02.jpg",
+  "/img/partner_03.jpg",
+  "/img/partner_04.jpg",
+  "/img/partner_05.jpg"
+];
+
+
 function Partner() {
   return (
     <section className='partner padding-3 my-5'>
@@ -20,7 +35,7 @@ function Partner() {
             loop={true}
             scrollbar={{ draggable: true }}
             autoplay={{
-              delay: 3000,
+              delay: 2000,
               disableOnInteraction: false,
               reverseDirection: false // Ensures clockwise direction
             }}
@@ -33,40 +48,21 @@ function Partner() {
               1466: { slidesPerView: 5 }
             }}
             onSwiper={(swiper) => console.log(swiper)}
-            >            
-                <SwiperSlide className='myslide '>
-                <img src="/img/partner_01.jpg" alt="" />
-              </SwiperSlide>
-              <SwiperSlide className='myslide '>
-                <img src="/img/partner_02.jpg" alt="" />
-              </SwiperSlide>
-              <SwiperSlide className='myslide ' >
-                <img src="/img/partner_03.jpg" alt="" />
-              </SwiperSlide>
-              <SwiperSlide className='myslide ' >
-                <img src="/img/partner_04.jpg" alt="" />
-              </SwiperSlide>
-              <SwiperSlide className='myslide '>
-                <img src="/img/partner_05.jpg" alt="" />
-              </SwiperSlide>
-              <SwiperSlide className='myslide '>
-                <img src="/img/partner_01.jpg" alt="" />
-              </SwiperSlide>
-              <SwiperSlide className='myslide '>
-                <img src="/img/partner_02.jpg" alt="" />
-              </SwiperSlide>
-              <SwiperSlide className='myslide ' >
-                <img src="/img/partner_03.jpg" alt="" />
-              </SwiperSlide>
-              <SwiperSlide className='myslide ' >
-                <img src="/img/partner_04.jpg" alt="" />
-              </SwiperSlide>
-              <SwiperSlide className='myslide '>
-                <img src="/img/partner_05.jpg" alt="" />
-              </SwiperSlide>
+            >  
+            {
+              slideImg.map((item,index)=>{
+                return(
+                  <SwiperSlide className='myslide ' key={index}>
+                  <img src={item} alt=""  />
+                </SwiperSlide>
+                )
+              })
+            }          
+               
+               </Swiper>
+             
             
              
-               </Swiper>
              
     </section>
   )

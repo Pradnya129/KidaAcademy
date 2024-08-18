@@ -29,9 +29,8 @@ function Newsletter() {
               </Form.Group> 
             
               <Link
-                to={"/subscribe_now"}
-                className="btn  col-lg-4 col-xl-4 col-md-3 col-sm-3 col-5    mx-auto rounded-0 py-sm-3 py-2 px-xl-5   px-2 border-2 border-white bg-white text-purple fst-italic  fw-bold    h-100"
-              >
+                to="#"
+                className="btn  col-lg-4 col-xl-4 col-md-3 col-sm-3 col-5    mx-auto rounded-0 py-sm-3 py-2 px-xl-5   px-2 border-2 border-white bg-white text-purple fst-italic  fw-bold    h-100" onClick={(e)=>{e.preventDefault()}} >
                 Subscribe Now
               </Link>
             </Form>

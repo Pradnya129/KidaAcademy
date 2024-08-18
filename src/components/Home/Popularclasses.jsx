@@ -34,7 +34,7 @@ function Popularclasses({classNo}) {
                          </ListGroup>
                           
                          <div className='p-4 text-start '>
-                          <Link  to='class-single.html' className={` text-decoration-none fs-4 ff-bubblegum ${item.textColor} `}>{item.className}</Link>
+                          <Link  to='#' className={` text-decoration-none fs-4 ff-bubblegum ${item.textColor} `} onClick={(e)=>{e.preventDefault()}}>{item.className}</Link>
                           <p className='text-tomato mb-0'>Class time : <span style={{color:'#707070'}}>{item.classTime}</span></p>
                           <p style={{color:'#707070'}}>{item.text}</p>
                           </div>

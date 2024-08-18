@@ -25,15 +25,15 @@ function Teacher({teacherClass}) {
                 <div className={`teacher-content ${item.bgColor}  col-sm-8 p-3  `}>
                   <h3 className='ff-bubblegum text-white'>{item.teacherName} <span className='fs-6 ff-bubblegum '>{item.teacherSubject}</span></h3>
                 <div className="social-media">
-                  <Link to={"javascript.void(0)"} className='text-decoration-none'> <i className='fa fa-facebook mx-1 text-white ' > </i> </Link>
-                  <Link to={"javascript.void(0)"} className='text-decoration-none'> <i className='fa fa-vimeo mx-1  text-white '> </i> </Link>
-                  <Link to={"javascript.void(0)"} className='text-decoration-none'> <i className='fa fa-twitter mx-1  text-white '> </i> </Link>
-                  <Link to={"javascript.void(0)"} className='text-decoration-none'> <i className='fa fa-vimeo mx-1  text-white '> </i> </Link>
-                  <Link to={"javascript.void(0)"} className='text-decoration-none'> <i className='fa fa-pinterest mx-1  text-white '> </i> </Link>
-                  <Link to={"javascript.void(0)"} className='text-decoration-none'> <i className='fa fa-rss mx-1  text-white '> </i> </Link>
+                  <Link to="#" className='text-decoration-none' onClick={(e)=>{e.preventDefault()}}> <i className='fa fa-facebook mx-1 text-white  ' > </i> </Link>
+                  <Link to="#" className='text-decoration-none'onClick={(e)=>{e.preventDefault()}}> <i className='fa fa-vimeo mx-1  text-white    '> </i> </Link>
+                  <Link to="#" className='text-decoration-none'onClick={(e)=>{e.preventDefault()}}> <i className='fa fa-twitter mx-1  text-white  '> </i> </Link>
+                  <Link to="#" className='text-decoration-none'onClick={(e)=>{e.preventDefault()}}> <i className='fa fa-vimeo mx-1  text-white    '> </i> </Link>
+                  <Link to="#" className='text-decoration-none'onClick={(e)=>{e.preventDefault()}}> <i className='fa fa-pinterest mx-1  text-white '> </i> </Link>
+                  <Link to="#" className='text-decoration-none'onClick={(e)=>{e.preventDefault()}}> <i className='fa fa-rss mx-1  text-white       '> </i> </Link>
                 </div>
                 <p className='text-white fs-6 mt-3 '>{item.description}</p>
-                  <Link to ={"javascript.void(0)"} className='text-white fw-bold text-decoration-none view '>View Portfolio </Link>
+                  <Link to ="#" className='text-white fw-bold text-decoration-none view ' onClick={(e)=>{e.preventDefault()}}>View Portfolio </Link>
                 </div>
               </Row>
             </Col>
